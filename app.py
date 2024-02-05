@@ -1,7 +1,7 @@
 # app.py
-
 import pickle
 import pandas as pd
+print(pd.__version__)
 import streamlit as st
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
